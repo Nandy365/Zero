@@ -3,5 +3,45 @@ h1{
 }
 .backimg{
     background-image: url(Rolls-Royce\ Phantom\ 2018\ –\ Luxury\ Redefined\ -\ Yanko\ Design.jpeg);
-    background-size: 150% 150%;
+    background-size: cover;
+    color: aliceblue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:x-large;
+}
+table{
+    font-size:5em;
+    width: 100%; 
+}
+ol{
+    font-size: 3em;
+    color: rgb(130, 84, 204);
+  
+}
+/* ul{
+    font-size: 3em;
+    color: rgb(130, 84, 204);
+    list-style: armenian;
+} */
+dl{
+    color: blueviolet;
+    font-size: 3em;
+    text-align: center;
+    background-color: rgb(188, 147, 226);
+    border-radius: 6px solid black;
+}
+/* div{
+    margin: auto;
+    width: 300px;
+    background-color: tomato;
+} */
+div{
+    display: grid;
+    grid-template-columns: 30% 28% 30%;
+    color: rgb(167, 147, 147);
+}
+.photo{
+    max-width: 800px;
+}
+.photo{
+    min-width: 400px;
 }
