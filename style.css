@@ -1,6 +1,6 @@
 body{
     background-color: black;
-    color: beige;
+     color: beige; 
 }
 /* h1{
     color: aqua;
@@ -87,18 +87,39 @@ aside {
         width: 100%;
     }
 } */ 
-p{
-    color: blue;
-}
-a:link{
-    color: aqua;
+
+a:link {
+    color: green;
+    background-color: transparent;
     text-decoration: none;
-}
-a:hover{
-    color: blueviolet;
-    text-decoration:line-through;
-}
-a:visited{
-    color: rgb(255, 0, 0);
-    text-decoration: overline;
-}
+  }
+  
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  .bull{
+    background-image: url('brian-matangelo-CxTesbTrXOs-unsplash.jpg');
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+  }
+  .bulle{
+    background-image: url('brian-matangelo-CxTesbTrXOs-unsplash.jpg');
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-attachment:fixed;
+    
+  }
